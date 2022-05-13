@@ -5,7 +5,7 @@ import { Stepper, Step, StepLabel } from '@mui/material'
 import trainImg from './subway.png'
 import { io } from "socket.io-client"
 
-const socket = io('https://trains.radolyn.com/', {path: "api/ws/socket.io"})
+const socket = io('https://trains.radolyn.com/', {path: "/api/ws/socket.io"})
 
 function App() {
 
