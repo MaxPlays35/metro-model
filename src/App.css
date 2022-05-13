@@ -1,0 +1,22 @@
+.dot {
+  @apply relative;
+  @apply w-16 h-16;
+  @apply rounded-full;
+  @apply bg-violet-500;
+
+  @apply text-center;
+}
+
+.inner-dot {
+  @apply m-1;
+  @apply w-14 h-14;
+  @apply rounded-full;
+  @apply bg-violet-400;
+
+  @apply flex justify-center items-center;
+  @apply font-bold text-white;
+}
+
+.btn {
+  @apply w-25 self-center bg-blue-500 text-white focus:outline-none hover:bg-blue-700 transition-colors active:bg-blue-900 focus:border-red-500 border rounded-md h-10;
+}
