@@ -21,7 +21,7 @@ function App() {
 
   const [coords, setCoords] = React.useState(-700)
 
-  console.log("re-render occured");
+  // console.log("re-render occured");
 
   const [step, setStep] = React.useState(0);
   const [imgGraph, setImgGraph] = React.useState("");
